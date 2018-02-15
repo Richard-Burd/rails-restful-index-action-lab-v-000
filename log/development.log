@@ -181,6 +181,7 @@ Migrating to CreateStudents (1)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Morty"], ["last_name", "Smith"], ["created_at", "2018-02-14 17:51:08.275150"], ["updated_at", "2018-02-14 17:51:08.275150"]]
   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+<<<<<<< HEAD
 
 
 Started GET "/" for 4.14.116.211 at 2018-02-14 18:26:23 +0000
@@ -611,3 +612,5 @@ Processing by TurtlesController#burdaction as HTML
   [1m[35mTurtle Load (0.2ms)[0m  SELECT "turtles".* FROM "turtles"
   Rendered crazyfolder/crazyturtles.html.erb within layouts/application (15.6ms)
 Completed 200 OK in 393ms (Views: 379.4ms | ActiveRecord: 0.6ms)
+=======
+>>>>>>> 1b4dfc23a51b125cee0b23bfc1341e4f5b3f76f7
